@@ -4,6 +4,10 @@ python:
     - "3.6"
     - "3.7"
 
+arch:
+    - amd64
+    - arm64
+
 install:
     - pip install pygame numpy cython pytest psutil
     - pip install ./accelerate
